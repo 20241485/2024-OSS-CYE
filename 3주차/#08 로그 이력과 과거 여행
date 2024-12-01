@@ -1,1 +1,18 @@
+$ git init basic
 
+$ git add, commit
+
+$ git log
+(--oneline --graph --all -n)
+
+$ git show [HEAD]
+(--oneline)
+
+바로 이전 버전으로 가기
+$ git checkout HEAD~
+
+다시 최신 버전으로 돌아오기
+$ git checkout main
+
+다시 Checkout 이전으로 돌아오기
+$ git checkout -
