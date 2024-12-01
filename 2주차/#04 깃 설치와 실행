@@ -1,1 +1,10 @@
 
+깃 설치 다운로드
+- https://git-scm.com/downloads
+
+깃 실행
+- 메뉴
+- 탐색기에서 메뉴
+- CLI 이해 
+ - $ git version
+ - $ git --version
