@@ -1,1 +1,37 @@
+깃 저장소 생성과 버전관리 과정
+- $ git init basic
+- $ git add hello.txt
+- $ git commit -m A
+- $ git status
+- $ git log --oneline
+- $ git show --oneline
 
+Add, Commit
+
+Status
+
+-파일 처음 생성
+Untracked file
+-> 붉은색 표시는 작업 디렉토리를 의미
+
+-처음 add한 파일
+A new file
+-> 녹색 표시는 스테이징 영역을 의미
+
+-다시 수정한 파일
+Modified file
+-> 붉은색 표시는 작업 디렉토리를 의미
+-> 스테이징 영역과 비교해서 작업 디렉토리의 파일이 수정된 것을 의미
+
+-수정한 파일을 add
+Modified file 
+-> 녹색 표시는 스테이징 영역을 의미
+-> 최근 커밋과 비교해서 스테이징 영역의 파일이 수정된 것을 의미
+
+커밋 이력 모두 보기
+$ git log
+(--oneline --graph --all -n)
+
+특정한 커밋 이력 보기
+$ git show [HEAD]
+(--oneline)
