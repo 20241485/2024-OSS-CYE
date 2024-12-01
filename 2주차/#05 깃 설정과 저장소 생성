@@ -1,1 +1,31 @@
 
+깃 설정 명령 구조
+ $ git config --설정범위 설정변수 설정값
+설정 범위
+: [--system | --global | --local]
+--global 인 경우 설정 파일
+: C:|users|[사용자-계정]|.gitconfig
+
+지역 저장소 생성 전 해야 할 설정
+사용자 설정 
+$ git config --global user.name ivy222140
+$ git config --global user.email ivy222140@naver.com 
+
+맥과 윈도우 간의 자동 변환
+$ git config --global core.aurocrlf true
+
+뉴라인 경고 발생 없애기(옵션)
+$ git config --global core.safecrlf false
+
+기본 편집기 사용
+$ git config --global core.editor 'core --wait'
+
+깃 저장소 기본 브랜치 이름 설정
+$ git config --global init.defaultBranch main
+
+git repository 생성 방법
+$ git init 
+$ git init.
+- 현재 디렉토리를 깃 저장소로 만들기 위해서 사용
+$ git init basic
+- 현재 폴더 하부에 폴더 basic을 생성하고 깃 저장소로 만들기 위해서 사용
