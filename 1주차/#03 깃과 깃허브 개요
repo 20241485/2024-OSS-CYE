@@ -1,1 +1,30 @@
+Git
+- 시간에 지남에 따라서 파일이나 프로젝트의 변화를 추적할 수 있는 시스템
 
+Github
+- 깃 저장소를 원격으로 저장해주어 개발자들이 코드를 공유하기에 쉽게 해주는 웹사이트
+
+Repositories(or repo)
+- 커밋을 포함한 폴더
+
+깃 설치
+- Git Bash, Git GUI
+
+깃 저장소 구조
+- working directory
+:working folder, working tree, workspace
+- staging area
+- git repository
+- stash
+
+Add 명령
+- working directory -> staging area 이동
+
+commit 명령
+staging area -> git repository 이동
+
+브랜치
+- 버전관리를 수행하던 일련의 파일집합을 통째로 복사해 독립적으로 다시 개발을 진행하는 개념
+
+Github
+버전관리를 위한 서버 저장소 및 프로젝트 개발을 위한 협업 관리 서비스
